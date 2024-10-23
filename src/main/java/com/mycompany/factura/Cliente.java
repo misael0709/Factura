@@ -6,10 +6,10 @@ public class Cliente {
         IVA i;
         double des, iva;
         
-        d = new c30();
+        d = new c20();
         des = d.Operacion(100);
         
-        i = new c10IVA();
+        i = new c16IVA();
         iva = i.Operacion(100-des);
         
         return 100 - des + iva;
